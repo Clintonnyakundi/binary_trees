@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define BIGGER(a, b) ((a) > (b) ? (a) : (b))
+
 /**
  * struct binary_tree_s - Binary tree node
  *
